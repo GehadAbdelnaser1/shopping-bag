@@ -1,0 +1,173 @@
+/* .form-icon button{
+color: blue;
+width: 100%;
+height: 1rem;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.pay-form__group :focus {
+  border: 2px #0e334f solid;
+}
+
+.pay-form__group-btn input {
+  color: #fff;
+  background: #0e334f;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  /* margin-right: 39px; */
+}
+
+.pay-form__group label {
+  font-size: 16px;
+  color: #0e334f;
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
+
+
+
+.pay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 532px;
+}
+
+.pay-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px #0e334f;
+  padding: 2rem;
+  /* width: 235px;
+  height: 285px; */
+  /* width: 359px; */
+  width: 310px;
+  height: 397px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px #0e334f solid;
+}
+
+.pay h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 10px;
+  color: #0e334f;
+}
+
+.pay-form form input {
+  width: 251px;
+  height: 30px;
+  border: 1px #0e334f solid;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.pay-form__group input:focus {
+  border: 2px royalblue solid;
+  outline: none;
+
+}
+
+.pay-form__group-btn input {
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.pay-form__group-btn input:hover {
+  background-color: #ffc107;
+  color: #0e334f;
+  font-weight: bold;
+}
+
+.pay-form a {
+  text-decoration: none;
+  color: #0d0d61;
+}
+
+
+.pay-form-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.pay-form form button {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  transition: 0.5s ease;
+}
+
+.pay-form-icon .Mastercard {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  background-image: linear-gradient(to bottom right, #0d0d61, royalblue);
+  width: 50px;
+  height: 50px;
+  padding-bottom: 51px;
+
+}
+
+.cvv{
+  display: flex;
+  flex-direction: row;
+  /* width: 50%; */
+}
+.cvv input {
+  width: 120px;
+  height: 30px;
+
+}
+.pay-form-icon .AmazonPay {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  background-image: linear-gradient(to bottom right, #0d0d61, royalblue);
+  width: 50px;
+  height: 50px;
+  padding-bottom: 55px;
+
+}
+
+.pay-form-icon img{
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+
+
+/* .pay-form-icon .Instagram {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom right, #c90404, royalblue );
+
+} */
+
+.pay-form-icon button:hover {
+  border: #ffc107 2px solid;
+  width: 35px;
+  /* height: 35px; */
+}

@@ -1,0 +1,106 @@
+.ProductList .line {
+  border: 0;
+  height: 2px;
+  background: #ccc;
+  width: 83%;
+  margin: 15px 5%;
+
+}
+
+.ProductList {
+  width: 98%;
+  margin-left: 2%;
+
+}
+
+.ProductList .p {
+  margin: 20px 5%;
+  font-weight: 800;
+}
+
+.ProductList .main {
+  /* display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-left: 13%;
+  width: 81%; */
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-left: 8%;
+  width: 86%;
+
+
+}
+
+.ProductList .card {
+  background: #fff;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  padding-right: 51px;
+}
+
+.ProductList .img {
+  /* width: 80%; */
+  width: 95%;
+  height: 80%;
+}
+.ProductList .img img {
+  width: 70%;
+  height: 70%;
+}
+
+.ProductList .card p {
+  color: #a39898;
+  text-align: left;
+  font-size: 16px;
+}
+
+.ProductList .card h5 {
+  color: #a61616;
+  text-align: left;
+  font-weight: bold;
+  display: inline;
+  margin-right: 20%;
+  font-size: 17px;
+
+}
+
+.ProductList  .card span {
+  color: #a39898;
+  text-align: right;
+  text-decoration: line-through;
+}
+
+.ProductList .hot{
+  background:#ffc107;
+  color: #fff;
+  position: absolute;
+  border: none;
+  border-radius: 2px;
+}
+.ProductList .best{
+  background:orange;
+  color: #fff;
+  position: absolute;
+  border: none;
+  border-radius: 2px;
+}
+
+.ProductList .icons {
+  color: gold;
+}
+
+#scend {
+  width: auto;
+}
+
+@media (max-width: 600px) {
+  .ProductList .main {
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,116 @@
+.makeup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1%;
+  margin-bottom: 2rem;
+
+}
+
+.makeup-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.makeup-main img{
+  width: 95%;
+  height: 70vh;
+  border-radius: 5px;
+}
+.makeup-p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+  color: #2d2d2d;
+}
+.makeup-ProductList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.makeup-main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  width: 100%;
+}
+
+.makeup-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.makeup-card p{
+  color: #a39898;
+  text-align: left;
+  font-size: 16px;
+}
+.makeup-card h5 {
+  color: #a61616;
+  text-align: left;
+  font-weight: bold;
+  display: inline;
+  /* margin-right: 20%; */
+  margin-right: 44%;
+  font-size: 17px;
+
+}
+
+.makeup-card span {
+  color: #a39898;
+  text-align: right;
+  text-decoration: line-through;
+  /* margin-top: -11%; */
+  margin-top: -8%;
+  margin-left: 23%;
+}
+
+/* .ProductList .hot{
+  background:#ffc107;
+  color: #fff;
+  position: absolute;
+  border: none;
+  border-radius: 2px;
+}
+.ProductList .best{
+  background:orange;
+  color: #fff;
+  position: absolute;
+  border: none;
+  border-radius: 2px;
+} */
+
+.makeup-card .icons {
+  color: gold;
+}
+
+@media (max-width: 600px) {
+  .makeup-main {
+    flex-direction: column-reverse;
+  }
+
+  .makeup-main img{
+    height: 30vh;
+  }
+  .makeup-card span {
+    margin-top: -16%;
+    margin-left: 36%;
+  };
+}
+
+
+
+

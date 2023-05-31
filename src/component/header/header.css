@@ -1,0 +1,187 @@
+
+.firstImg {
+  width: 96%;
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.container-heder img{
+  width: 100%;
+  height: 51vh;
+  border-radius: 5px;
+}
+.container-heder{
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 96%;
+  gap: 10px;
+  margin-left: 2%;
+  margin-top: 1%;
+
+}
+.fst img{
+  width: 100%;
+  /* height: 322px; */
+  height: 256px;
+  border-radius: 5px;
+}
+.scd img{
+  width: 100%;
+  /* height: 321px;
+    height: 256px; */
+    height: 256px;
+  border-radius: 5px;
+}
+.trd img{
+  width: 100%;
+  /* height: 322px; */
+  height: 256px;
+  border-radius: 5px;
+}
+.fst ,.scd ,.trd{
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 35%;
+  height: 94%
+}
+
+.centeredImg {
+  position: absolute;
+  top: 40%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  font: 0.9em sans-serif;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font: 0.9em sans-serif;
+}
+
+
+
+.container-heder h4 {
+  text-align: left;
+  font-size: 1em;
+  color: orange;
+}
+
+.container-heder h2 {
+  text-align: left;
+  text-shadow: #0a0909;
+}
+
+.container-heder p {
+  text-align: left;
+  font-size: 0.5em;
+  color: #a39898;
+}
+
+.imgBtn {
+  text-align: center;
+  font-size: 1em;
+  color: #0a0909;
+  background-color: #e8c826;
+  font-weight: 600;
+  border-radius: 1px;
+  border: #ffc107 1px solid;
+  width: 40%;
+  height: 20%;
+  margin-top: 12px;
+  position: absolute;
+  left: 0;
+  border-radius: 3px;
+}
+
+.fst h3 {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+
+}
+
+.scd h3 {
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.trd h3 {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+
+}
+
+.centered p {
+  color: #e8c826;
+}
+
+.images button {
+  color: #fff;
+  background-color: #a61616;
+  border: #a61616 1px solid;
+  width: 100%;
+  border-radius: 3px;
+
+}
+
+.caption p {
+  font-size: 0.5em;
+  font-weight: bold;
+  color: white;
+}
+
+.caption h2 {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: white;
+}
+
+.caption h4 {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .images {
+    flex-direction: column;
+    /* width: 100%; */
+    justify-content: center;
+  }
+
+  .fst,
+  .scd,
+  .trd {
+    width: 100%;
+  }
+
+
+  .imgBtn {
+    width: 58%;
+    height: 17%;
+  }
+  .centeredImg {
+    position: absolute;
+    top: 40%;
+    left: 50%;left: 53%;
+  
+    
+    width: 81%;
+}
+
+
+  }
