@@ -1,0 +1,112 @@
+.shirt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.shirt-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.shirt-main img{
+  width: 95%;
+  height: 70vh;
+  border-radius: 5px;
+}
+.shirt-p  {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #2d2d2d;
+}
+.shirt-ProductList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.shirt-main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin: 1rem; */
+  width: 100%;
+  gap: 60px;
+}
+
+.shirt-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.shirt-card p{
+  color: #a39898;
+  text-align: left;
+  font-size: 16px;
+}
+.shirt-card h5 {
+  color: #a61616;
+  text-align: left;
+  font-weight: bold;
+  display: inline;
+  /* margin-right: 20%; */
+  margin-right: 44%;
+  font-size: 17px;
+
+}
+
+.shirt-card span {
+  color: #a39898;
+  text-align: right;
+  text-decoration: line-through;
+  /* margin-top: -11%; */
+  margin-top: -8%;
+  margin-left: 23%;
+}
+
+/* .ProductList .hot{
+  background:#ffc107;
+  color: #fff;
+  position: absolute;
+  border: none;
+  border-radius: 2px;
+}
+.ProductList .best{
+  background:orange;
+  color: #fff;
+  position: absolute;
+  border: none;
+  border-radius: 2px;
+} */
+
+.shirt-card .icons {
+  color: gold;
+}
+
+@media (max-width: 600px) {
+  .shirt-main {
+    flex-direction: column-reverse;
+  }
+  .shirt-card span {
+    margin-top: -9%;
+  };
+}
+
+
+
+
